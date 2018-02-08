@@ -16,7 +16,16 @@
             "Meeva\\CreateVendor\\": "src/"
         }
     },
+    "scripts": {
+        "fix-cs": [
+            "php vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix -v --config=.php_cs.dist --path-mode=intersection ."
+        ]
+    },
     "extra": {
         "class": "Meeva\\CreateVendor\\Plugin"
+    },
+    "require-dev": {
+        "composer/composer": "^1.6",
+        "friendsofphp/php-cs-fixer": "^2.10"
     }
 }
