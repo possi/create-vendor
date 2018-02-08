@@ -1,0 +1,22 @@
+{
+    "name": "meeva/create-vendor",
+    "description": "Composer Plugin to create new vendor-packages from within an project. Requires git.",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Jascha Starke",
+            "email": "j.starke@meeva.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Meeva\\CreateVendor\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Meeva\\CreateVendor\\Plugin"
+    }
+}
