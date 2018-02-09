@@ -1,6 +1,6 @@
 {
     "name": "meeva/create-vendor",
-    "description": "Composer Plugin to create new vendor-packages from within an project. Requires git.",
+    "description": "composer plugin to quickly create new vendor-packages from within your project.",
     "license": "MIT",
     "type": "composer-plugin",
     "require": {
